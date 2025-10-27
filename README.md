@@ -23,7 +23,7 @@ The app automatically refreshes every few seconds to show live signal updates.
 |-------------|---------------|---------------|
 | ![screenshot1](docs/screenshot1.png) | ![screenshot2](docs/screenshot2.png) | ![screenshot3](docs/screenshot3.png) |
 
-*(Add your screenshots in a `/docs` folder in the repo)*
+
 
 ---
 
@@ -60,8 +60,8 @@ WifiScannerApp/
 
 3. Make sure your AndroidManifest.xml includes:
    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 4. Run the app on a real device (Wi-Fi scanning may not work properly on emulators).
 
 5. 📜 License
